@@ -18,6 +18,12 @@
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
+    filter: grayscale(100%) brightness(1.2);
+    transition: filter 0.3s ease;
+}
+
+.skills .tools ul li img:hover {
+    filter: grayscale(0%) brightness(1.2);
 }
 
 .skills .personal ul {

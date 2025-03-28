@@ -9,24 +9,28 @@
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #0C0C0C;
+    color: #f0f0f0;
 }
 
 a {
-    color: #fff;
+    color: #f0f0f0;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #0066cc;
+    text-decoration: none;
 }
 
 .main {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #fff;
+    border: 1px solid #333;
     border-radius: 1rem;
+    background-color: rgba(20, 20, 20, 0.9);
+    box-shadow: 0 0 10px rgba(0, 102, 204, 0.2); 
 }
 
 .main::before,

@@ -23,6 +23,11 @@
     font-weight: 700;
     margin: 0;
     margin-bottom: .5rem;
+    color: #0066cc;
+}
+
+.portfolio li a:hover {
+    color: #0066cc;
 }
 
 .portfolio li h3.github::before {
